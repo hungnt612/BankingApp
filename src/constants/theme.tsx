@@ -9,13 +9,14 @@ export const COLORS = {
   lightGreen: '#E7F9EF',
   lightGreen1: '#8EbCA0',
 
-  white: '#fff',
+  white: '#FFFFFF',
   white2: '#F9F9F9',
-  black: '#020202',
+  black: '#18161F',
   blue: '#4096FE',
+  lightBlue: '#69D0ED',
   gray: '#777777',
-  gray2: '#F8F8F8',
-  lightGray: '#F5F6FB',
+  gray2: '#EFEFEF',
+  lightGray: '#D0D0D2',
   lightGray2: '#757575',
 
   transparentBlack1: 'rgba(2, 2, 2, 0.1)',
@@ -39,7 +40,7 @@ export const SIZES = {
 
   // font sizes
   largeTitle: 40,
-  h1: 30,
+  h1: 28,
   h2: 22,
   h3: 16,
   h4: 14,
