@@ -13,6 +13,9 @@ const user = require('../assets/icons/user.png');
 const chat = require('../assets/icons/chat.png');
 const heart = require('../assets/icons/heart.png');
 const infinity3 = require('../assets/icons/infinity3.png');
+const whiteArrow = require('../assets/icons/white-arrow.png');
+const infinity4 = require('../assets/icons/infinity-2.png');
+const arrow = require('../assets/icons/arrow.png');
 
 export default {
   bookmark,
@@ -30,4 +33,7 @@ export default {
   chat,
   heart,
   infinity3,
+  whiteArrow,
+  infinity4,
+  arrow,
 };

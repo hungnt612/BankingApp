@@ -3,6 +3,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {SafeAreaView, Text, View} from 'react-native';
 import {COLORS} from './src/constants';
+import StartScreen from './src/screens/StartScreen';
 import Home from './src/screens/Home';
 // import Tabs from './src/navigation/tabs';
 
@@ -14,9 +15,9 @@ const App = () => {
         screenOptions={{
           headerShown: false,
         }}
-        initialRouteName={'Home'}>
+        initialRouteName={'StartScreen'}>
         {/* <Stack.Screen name="Login" component={Login} /> */}
-        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="StartScreen" component={Home} />
         {/* <Stack.Screen name="Recipe" component={Recipe} /> */}
       </Stack.Navigator>
     </NavigationContainer>

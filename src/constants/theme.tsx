@@ -13,6 +13,7 @@ export const COLORS = {
   white2: '#F9F9F9',
   black: '#18161F',
   blue: '#4096FE',
+  blue2: '#6757E7',
   lightBlue: '#69D0ED',
   gray: '#777777',
   gray2: '#EFEFEF',
@@ -39,7 +40,7 @@ export const SIZES = {
   padding2: 20,
 
   // font sizes
-  largeTitle: 40,
+  largeTitle: 32,
   h1: 28,
   h2: 22,
   h3: 16,
