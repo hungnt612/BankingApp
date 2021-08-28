@@ -154,5 +154,37 @@ const transactionsList = [
     type: 'income',
     image: images.UserProfile10,
   },
+  {
+    id: 11,
+    name: 'Actions',
+    time: '20 hours ago',
+    value: '485,00',
+    type: 'income',
+    image: images.UserProfile10,
+  },
+  {
+    id: 12,
+    name: 'Actions',
+    time: '20 hours ago',
+    value: '485,00',
+    type: 'income',
+    image: images.UserProfile10,
+  },
+  {
+    id: 13,
+    name: 'Actions',
+    time: '20 hours ago',
+    value: '485,00',
+    type: 'income',
+    image: images.UserProfile10,
+  },
+  {
+    id: 14,
+    name: 'Actions',
+    time: '20 hours ago',
+    value: '485,00',
+    type: 'income',
+    image: images.UserProfile10,
+  },
 ];
 export default {cardData, transactionsList, friendList};

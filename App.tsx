@@ -5,6 +5,7 @@ import {SafeAreaView, Text, View} from 'react-native';
 import {COLORS} from './src/constants';
 import StartScreen from './src/screens/StartScreen';
 import Home from './src/screens/Home';
+import Tabs from './src/navigation/Tabs';
 // import Tabs from './src/navigation/tabs';
 
 const Stack = createStackNavigator();
@@ -16,9 +17,8 @@ const App = () => {
           headerShown: false,
         }}
         initialRouteName={'StartScreen'}>
-        {/* <Stack.Screen name="Login" component={Login} /> */}
-        <Stack.Screen name="StartScreen" component={Home} />
-        {/* <Stack.Screen name="Recipe" component={Recipe} /> */}
+        <Stack.Screen name="StartScreen" component={StartScreen} />
+        <Stack.Screen name="Home" component={Tabs} />
       </Stack.Navigator>
     </NavigationContainer>
   );

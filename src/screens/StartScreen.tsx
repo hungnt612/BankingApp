@@ -104,7 +104,7 @@ const StartScreen = ({navigation}) => {
                 width: '4%',
               }}
             />
-            <View
+            <TouchableOpacity
               style={{
                 height: 70,
                 width: '20%',
@@ -112,16 +112,21 @@ const StartScreen = ({navigation}) => {
                 borderRadius: 50,
                 justifyContent: 'center',
                 alignItems: 'center',
+              }}
+              onPress={() => {
+                navigation.replace('Home');
               }}>
-              <Image
-                source={icons.arrow}
-                style={{
-                  width: 35,
-                  height: 35,
-                  transform: [{rotate: '40deg'}],
-                }}
-              />
-            </View>
+              <View>
+                <Image
+                  source={icons.arrow}
+                  style={{
+                    width: 35,
+                    height: 35,
+                    transform: [{rotate: '40deg'}],
+                  }}
+                />
+              </View>
+            </TouchableOpacity>
           </View>
         </View>
       </View>
