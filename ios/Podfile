@@ -12,6 +12,8 @@ target 'BankingApp' do
     :hermes_enabled => false
   )
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'BankingAppTests' do
     inherit! :complete
     # Pods for testing
