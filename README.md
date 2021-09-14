@@ -10,5 +10,5 @@ Design referenced at [here](https://dribbble.com/shots/16138857-Banking-App-Mobi
 
 ## Screenshots
 
-![screenshot](screenshots/screen1.png)
+![screenshot](screenshots/screen1.png =100x120)
 ![screenshot](screenshots/screen2.png)
